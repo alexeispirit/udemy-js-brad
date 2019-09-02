@@ -15,7 +15,14 @@
       crossorigin="anonymous"
     />
 
-    <title>Hello, world!</title>
+    <title>Loan Calculator</title>
+
+    <style>
+      #loading,
+      #results {
+        display: none;
+      }
+    </style>
   </head>
   <body class="bg-dark">
     <div class="container">
@@ -66,9 +73,9 @@
               </div>
             </form>
             <!-- LOADER HERE -->
-            <!-- <div id="loader">
+            <div id="loading">
               <img src="img/loading.gif" alt="" />
-            </div> -->
+            </div>
             <!-- RESULTS -->
             <div id="results" class="pt-4">
               <h5>Results</h5>
